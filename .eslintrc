@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb/base",
+  "parser": "babel-eslint",
+  "rules": {
+    "no-param-reassign": 0,
+    "no-constant-condition": 0,
+  },
+  "globals": {
+    "describe",
+    "it",
+    "xit",
+    "beforeEach",
+    "afterEach",
+    "before",
+    "after"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "homer-channel-alexa",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Kevin van Dijk <kevin@edgybits.com>",
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "^6.2.0"
+  }
+}
