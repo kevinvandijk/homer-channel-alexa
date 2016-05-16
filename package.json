@@ -2,11 +2,18 @@
   "name": "homer-channel-alexa",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Kevin van Dijk <kevin@edgybits.com>",
   "devDependencies": {
+    "babel-cli": "^6.8.0",
     "babel-eslint": "^6.0.2",
+    "babel-preset-es2015-node": "^6.0.1",
+    "babel-preset-stage-1": "^6.5.0",
     "eslint": "^2.6.0",
     "eslint-config-airbnb": "^6.2.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "prepublish": "npm run build"
   }
 }
